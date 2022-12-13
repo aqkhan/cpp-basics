@@ -18,6 +18,7 @@ class DebugOnly {
 
         // The name of the destructor method should be the same as the class name, but with a tilde (~) in front
         ~DebugOnly() {
+            // Use this to explicitly destroy the dynamically allocated memory
             cout << "Hello from the destructor!" << endl;
         }
 
